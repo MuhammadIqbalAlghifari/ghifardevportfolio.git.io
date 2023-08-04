@@ -714,7 +714,7 @@ footer .footer-right {
       header .mobile-nav .menu-icon img {
         position: relative;
         float: right;
-        margin: 28px 35px;
+        margin: 28px 30px;
         z-index: 1000;
       }
     
@@ -950,6 +950,7 @@ footer .footer-right {
 
     /* Header/Navbar Start */
 
+
     header .mobile-menu-container ul li {
         padding: 0px 120px;
     }
@@ -1122,6 +1123,15 @@ footer .footer-right {
 
     /* Header/Navbar Start */
 
+    header .mobile-nav .menu-icon img {
+        margin: 20px;
+    }
+
+    header .mobile-menu-container .close-icon {
+        top: 20px;
+        right: 30px;
+    }
+
     header .mobile-menu-container ul li {
         padding: 0px 60px;
         font-size: 10px;
@@ -1156,7 +1166,7 @@ footer .footer-right {
     }
 
     .hero .hero-left.hidden img {
-        width: 420px;
+        width: 400px;
         height: 300px;
         margin-top: 0px;
     }
@@ -1364,7 +1374,7 @@ footer .footer-right {
     /* Header/Navbar Start */
 
     header .mobile-menu-container ul li {
-        padding: 0px 55px;
+        padding: 0px 50px;
         font-size: 10px;
     }
 
@@ -1443,7 +1453,9 @@ footer .footer-right {
         margin-bottom: 30px;
     }
 
-    .about .about-right-upper.hidden a.btn2 {
+    .about .about-right-upper
+    
+    .hidden a.btn2 {
         display: none;        
     }
 
@@ -1566,5 +1578,69 @@ footer .footer-right {
     }
     /* Footer End */
 
+}
+
+@media all and (max-width : 300px) {
+
+    header .mobile-menu-container ul li {
+        padding: 0px 40px;
+        font-size: 10px;
+    }
+    .hero .hero-left.hidden img {
+        max-width: 250px;
+    }
+
+    .about .about-left-upper.hidden img {
+        max-width: 250px;
+    }
+
+    .about .about-right-lower.hidden {
+        padding: 0px 20px;
+    }
+
+    .service .wrapper {
+        max-width: 250px;
+    }
+
+    .service .card .left.hidden {
+        max-width: 250px;
+        height: 390px;
+    }
+    .service .card .center.hidden {
+        max-width: 250px;
+        height: 390px;
+    }
+    .service .card .right.hidden {
+        max-width: 250px;
+        height: 390px;
+    }
+
+    .contact .wrapper {
+        max-width: 280px;
+    }
+
+    .contact .left .name {
+        max-width: 250px;
+    }
+
+    .contact .right .email {
+        max-width: 250px;
+    }
+
+    .contact .message .message-down {
+        max-width: 250px;
+    }
+
+    footer .footer-left h1 {
+        font-size: 12px;
+    }
+
+    footer .footer-left p {
+        font-size: 7px;
+    }
+
+    footer .footer-right p {
+        font-size: 4px;
+    }
 }
     
