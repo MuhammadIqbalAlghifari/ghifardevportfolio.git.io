@@ -470,7 +470,6 @@ header a {
 
 .service .card .left.show:hover {
     background: red;
-    color: black;
 }
 
 .service .card .center.hidden {
@@ -492,7 +491,6 @@ header a {
 
 .service .card .center.show:hover {
     background: red;
-    color: black;
 }
 
 .service .card .right.hidden {
@@ -514,7 +512,6 @@ header a {
 
 .service .card .right.show:hover {
     background: red;
-    color: black;
 }
 
 
