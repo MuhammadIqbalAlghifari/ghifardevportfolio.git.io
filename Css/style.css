@@ -468,6 +468,10 @@ header a {
     transform: translateX(0);
 }
 
+.service .card .left.show:hover {
+    background: red;
+}
+
 .service .card .center.hidden {
     background: black;
     width: 394px;
@@ -485,6 +489,10 @@ header a {
     transform: translateX(0);
 }
 
+.service .card .center.show:hover {
+    background: red;
+}
+
 .service .card .right.hidden {
     background: black;
     width: min(394px, 33%);
@@ -500,6 +508,10 @@ header a {
 .service .card .right.show {
     opacity: 1;
     transform: translateX(0);
+}
+
+.service .card .right.show:hover {
+    background: red;
 }
 
 
