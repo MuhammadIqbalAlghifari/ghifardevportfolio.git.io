@@ -79,7 +79,7 @@ html {
     background: var(--backround-button);
     border-radius: 10px;
     padding: 17px 31px;
-    outline: none;
+    border: none;
 }
 
 
@@ -161,11 +161,16 @@ header a {
     filter: grayscale(100%);
     border-radius: 10px;
     object-fit: cover;
+    opacity: 0;
     transition: all 1s;
 }
 
 .hero .hero-left.hidden img:hover {
     filter: none;
+}
+
+.hero .hero-left.show img {
+    opacity: 1;
 }
 
 .hero .hero-right.hidden {
@@ -247,11 +252,16 @@ header a {
     border-radius: 10px;
     margin: 50px 0px 20px 0px;
     filter: grayscale(100%);
+    opacity: 0;
     transition: all 1s;
 }
 
 .about .about-left-upper.hidden img:hover {
     filter: none;
+}
+
+.about .about-left-upper.show img {
+    opacity: 1;
 }
 
 .about .about-right-upper.hidden {
