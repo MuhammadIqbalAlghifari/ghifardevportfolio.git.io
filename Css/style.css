@@ -176,7 +176,7 @@ header a {
 .hero .hero-right.hidden {
     margin-top: 50px;
     opacity: 0;
-    transition: 1s ease;
+    transition: all 1s ease;
 }
 
 .hero .hero-right.show{
