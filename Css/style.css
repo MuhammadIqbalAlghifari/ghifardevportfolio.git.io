@@ -522,7 +522,7 @@ header a {
 
 /* My Jobs Start */
 
-.project {
+section.project {
     display: none;
 }
 
