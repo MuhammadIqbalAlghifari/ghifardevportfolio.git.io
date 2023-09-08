@@ -116,6 +116,17 @@ header .navbar {
     z-index: 1000;
 }
 
+header .wrapper.tersembunyi {
+    opacity: 0;
+    transform: translateY(-15%);
+    transition: all 500ms ease;
+}
+
+header .wrapper.show {
+    opacity: 1;
+    transform: translateY(0%);
+}
+
 header .logo {
     font-family: 'Druk Text Wide';
     font-size: 20px;
@@ -162,7 +173,8 @@ header a {
     border-radius: 10px;
     object-fit: cover;
     opacity: 0;
-    transition: all 1s;
+    transform: translateX(-10%);
+    transition: all 500ms;
 }
 
 .hero .hero-left.hidden img:hover {
@@ -171,16 +183,19 @@ header a {
 
 .hero .hero-left.show img {
     opacity: 1;
+    transform: translateX(0%);
 }
 
 .hero .hero-right.hidden {
     margin-top: 50px;
     opacity: 0;
-    transition: all 1s ease;
+    transform: translateX(10%);
+    transition: all 500ms ease;
 }
 
 .hero .hero-right.show{
     opacity: 1;
+    transform: translateX(0%);
 }
 
 .hero p.upper {
@@ -253,7 +268,8 @@ header a {
     margin: 50px 0px 20px 0px;
     filter: grayscale(100%);
     opacity: 0;
-    transition: all 1s;
+    transform: translateX(-10%);
+    transition: all 500ms;
 }
 
 .about .about-left-upper.hidden img:hover {
@@ -262,15 +278,18 @@ header a {
 
 .about .about-left-upper.show img {
     opacity: 1;
+    transform: translateX(0%);
 }
 
 .about .about-right-upper.hidden {
     opacity: 0;
-    transition: all 1s ease;
+    transform: translateX(10%);
+    transition: all 500ms ease;
 }
 
 .about .about-right-upper.show {
     opacity: 1;
+    transform: translateX(0%);
 }
 
 .about .about-right-upper.hidden p.upper {
@@ -315,11 +334,13 @@ header a {
 .about .about-left-lower.hidden {
     max-width: 500px;
     opacity: 0;
-    transition: all 1s ease;
+    transform: translateY(10%);
+    transition: all 500ms ease;
 }
 
 .about .about-left-lower.show {
     opacity: 1;
+    transform: translateX(0%);
 }
 
 .about .about-left-lower p.upper {
@@ -355,11 +376,13 @@ header a {
     font-size: clamp(1rem, 8vw , 1.6rem);
     max-width: 650px;
     opacity: 0;
-    transition: all 1s ease;
+    transform: translateY(10%);
+    transition: all 500ms ease;
 }
 
 .about .about-right-lower.show {
     opacity: 1;
+    transform: translateX(0%);
 }
 
 .about .about-right-lower h2.upper {
@@ -380,11 +403,13 @@ header a {
 .about .about-right-lower-right.hidden{
     margin-top: -120px;
     opacity: 0;
-    transition: all 1s ease;
+    transform: translateY(10%);
+    transition: all 500ms ease;
 }
 
 .about .about-right-lower-right.show {
     opacity: 1;
+    transform: translateY(0%);
 }
 
 .about .about-right-lower-right h2{

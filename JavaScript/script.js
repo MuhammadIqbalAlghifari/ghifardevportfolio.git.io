@@ -8,7 +8,7 @@ const observer = new IntersectionObserver((entries) => {
 });
 
 
-const hiddenElements = document.querySelectorAll('.hidden');
+const hiddenElements = document.querySelectorAll('.hidden, .tersembunyi');
 hiddenElements.forEach((el) => observer.observe(el));
 
 // Nav Mobile

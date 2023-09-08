@@ -1,0 +1,42 @@
+#card-1.tersembunyi {
+    opacity: 0;
+    transform: translateX(-15%);
+    transition: all ease 500ms;
+  }
+  
+  #card-2.tersembunyi {
+    opacity: 0;
+    transform: translateY(5%);
+    transition: all 500ms ease;
+  }
+  
+  #card-3.tersembunyi {
+    opacity: 0;
+    transform: translateX(15%);
+    transition: all 500ms ease;
+  }
+
+  #card-4.tersembunyi {
+    opacity: 0;
+    transition: all 500ms ease;
+  }
+  
+  #card-1.show {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+  
+  #card-2.show {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  
+  #card-3.show {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+
+  #card-4.show {
+    opacity: 1;
+  }
+

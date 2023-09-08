@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ghifar Dev. Project</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../animation/animation.css">
 </head>
 
 <style>
@@ -44,33 +45,184 @@
   font-display: swap;
 }
 
+h1.tersembunyi {
+  opacity: 0;
+  transform: translateY(-15%);
+  transition: all ease 500ms;
+}
+
+h1.show {
+  opacity: 1;
+  transform: translateY(0%);
+}
+
+
 </style>
 
 <body style="background-color: #1c1c1c;">
-    <section class="text-white body-font">
-      <h1 class="mx-auto text-center mt-4 text-4xl font-medium" style="font-family: 'Druk Text Wide';">Ghifar Dev. Project</h1>
-        <div class="container px-5 py-10 mx-auto" style=" font-family: 'Futura Md';">
-          <div class="flex flex-wrap items-center justify-center -mx-4 -mb-10 text-center">
-            <a href="./musikku.html">
-              <div class="mb-10 px-4">
-                <div class="rounded-lg h-64 overflow-hidden">
-                  <img alt="content" class="object-cover object-center h-full w-full" src="../IMG/musikku.png">
-                </div>
-                <h1 class="title-font text-2xl font-medium my-3">Musikku</h1>
-                <p class="leading-relaxed text-base">My personal website design about music landing page like spotify. (Only Layout)</p>
-              </div>
+  <div class="container my-12 mx-auto  px-4 md:px-12">
+    <h1 class="text-center text-base md:text-2xl lg:text-4xl my-5 text-white tersembunyi" style="font-family: 'Druk Wide';">Ghifar Dev. Project</h1>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 text-black" style="font-family: 'Futura Md'";>
+
+        <!-- Column -->
+        <div class="my-1 px-1 w-full tersembunyi" id="card-1">
+
+            <!-- Article -->
+            <article class="rounded-lg shadow-lg" style="background-color: white;" >
+
+              <a href="./musikku.html">
+                  <img alt="Placeholder" class="block h-auto w-full rounded-t-lg" src="../IMG/musikku.png">
+              
+
+              <header class="text-center p-2 ">
+                  <h1 class="text-sm md:text-base lg:text-lg">
+                      <p style="font-family: 'Druk Wide';">
+                          Musikku 
+                      </p>
+                  </h1>
+                  <h1 class="text-sm md:text-base lg:text-lg">
+                    <p>
+                        (Personal Project) 
+                    </p>
+                </h1>
+              </header>
+
+              <footer class="p-2">
+                  <a class="text-center">
+                      <p class="m-2 text-base">
+                        My personal website design about music landing page like spotify. (Only Layout)
+                      </p>
+                  </a>
+              </footer>
             </a>
-          </div>
-          <a href="../index.html">
-            <button class="flex justify-start mt-10 text-white">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-6">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
-              </svg>
-              <p class="ml-2">Back To Portfolio</p>
-            </button>
-          </a>
+
+          </article>
+            <!-- END Article -->
+
         </div>
-      </section>
-      
+        <!-- END Column -->
+
+        <!-- Column -->
+        <div class="my-1 px-1 w-full tersembunyi" id="card-2">
+
+          <!-- Article -->
+          <article class="rounded-lg shadow-lg" style="background-color: white;">
+
+            <a href="./admin.html">
+                <img alt="Placeholder" class="block h-auto w-full rounded-t-lg" src="../IMG/Admin Office Platinum.png">
+            
+
+            <header class="text-center p-2 ">
+                <h1 class="text-sm md:text-base lg:text-lg">
+                    <p style="font-family: 'Druk Wide';">
+                      Admin Office - Platinum 
+                    </p>
+                </h1>
+                <h1 class="text-sm md:text-base lg:text-lg">
+                  <p>
+                    (Company Project)
+                  </p>
+              </h1>
+            </header>
+
+            <footer class="p-2">
+                <a class="text-center" >
+                    <p class="m-2 text-base">
+                      This website was created by me to edit the assets on the platinum website
+                    </p>
+                </a>
+            </footer>
+          </a>
+
+        </article>
+          <!-- END Article -->
+
+      </div>
+        <!-- END Column -->
+
+        <!-- Column -->
+        <div class="my-1 px-1 w-full tersembunyi" id="card-3">
+
+          <!-- Article -->
+          <article class="rounded-lg shadow-lg" style="background-color: white;">
+
+            <a href="https://platinum.co.id/">
+                <img alt="Placeholder" class="block h-auto w-full rounded-t-lg" src="../IMG/Platinum.png">
+            
+
+            <header class="text-center p-2 ">
+                <h1 class="text-sm md:text-base lg:text-lg">
+                    <p style="font-family: 'Druk Wide';">
+                        Platinum (Only Animation)
+                    </p>
+                </h1>
+                <h1 class="text-sm md:text-base lg:text-lg">
+                  <p>
+                    (Company Project)
+                  </p>
+              </h1>
+            </header>
+
+            <footer class="p-2">
+                <a class="text-center  " >
+                    <p class="m-2 text-base">
+                      I was involved in making this website, namely making animations
+                    </p>
+                </a>
+            </footer>
+          </a>
+
+        </article>
+          <!-- END Article -->
+
+      </div>
+        <!-- END Column -->
+          <!-- Column -->
+          <div class="my-1 px-1 w-full tersembunyi" id="card-1">
+
+            <!-- Article -->
+            <article class="rounded-lg shadow-lg" style="background-color: white;">
+
+              <a href="https://anyer.itmgi.co/">
+                  <img alt="Placeholder" class="block h-auto w-full rounded-t-lg" src="../IMG/anyer.png">
+              
+
+              <header class="text-center p-2 ">
+                  <h1 class="text-sm md:text-base lg:text-lg">
+                      <p style="font-family: 'Druk Wide';">
+                          Anyer (Only Animation)
+                      </p>
+                  </h1>
+                  <h1 class="text-sm md:text-base lg:text-lg">
+                    <p>
+                      (Company Project)
+                    </p>
+                </h1>
+              </header>
+
+              <footer class="p-2">
+                  <a class="text-center  " >
+                      <p class="m-2 text-base">
+                        I was involved in making this website, namely making animations
+                      </p>
+                  </a>
+              </footer>
+            </a>
+
+          </article>
+            <!-- END Article -->
+
+          </div>
+    </div>
+    <a href="../index.html" >
+      <button class="flex mt-10 text-white tersembunyi" id="card-3">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
+        </svg>
+        <p class="ml-2">Back To Portfolio</p>
+      </button>
+    </a>
+</div>
+      <script src="../JavaScript/script.js"></script>
 </body>
 </html>
