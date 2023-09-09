@@ -1,6 +1,6 @@
 #card-1.tersembunyi {
     opacity: 0;
-    transform: translateX(-15%);
+    transform: translateX(-5%);
     transition: all ease 500ms;
   }
   
@@ -12,7 +12,7 @@
   
   #card-3.tersembunyi {
     opacity: 0;
-    transform: translateX(15%);
+    transform: translateX(5%);
     transition: all 500ms ease;
   }
 

@@ -118,7 +118,7 @@ header .navbar {
 
 header .wrapper.tersembunyi {
     opacity: 0;
-    transform: translateY(-15%);
+    transform: translateY(-5%);
     transition: all 500ms ease;
 }
 
@@ -173,7 +173,7 @@ header a {
     border-radius: 10px;
     object-fit: cover;
     opacity: 0;
-    transform: translateX(-10%);
+    transform: translateX(-5%);
     transition: all 500ms;
 }
 
@@ -189,7 +189,7 @@ header a {
 .hero .hero-right.hidden {
     margin-top: 50px;
     opacity: 0;
-    transform: translateX(10%);
+    transform: translateX(5%);
     transition: all 500ms ease;
 }
 
@@ -268,7 +268,7 @@ header a {
     margin: 50px 0px 20px 0px;
     filter: grayscale(100%);
     opacity: 0;
-    transform: translateX(-10%);
+    transform: translateX(-5%);
     transition: all 500ms;
 }
 
@@ -283,7 +283,7 @@ header a {
 
 .about .about-right-upper.hidden {
     opacity: 0;
-    transform: translateX(10%);
+    transform: translateX(5%);
     transition: all 500ms ease;
 }
 
@@ -494,13 +494,13 @@ header a {
     text-align: center;
     border-radius: 10px;
     opacity: 0;
-    transform: translate(-100%);
+    transform: translateX(-5%);
     transition: all 500ms ease;
 }
 
 .service .card .left.show {
     opacity: 1;
-    transform: translateX(0);
+    transform: translateX(0%);
 }
 
 .service .card .center.hidden {
@@ -510,7 +510,7 @@ header a {
     text-align: center;
     border-radius: 10px;
     opacity: 0;
-    transform: translate(-100%);
+    transform: translate(-5%);
     transition: all 500ms ease;
     transition-delay: 100ms;
 }
@@ -527,7 +527,7 @@ header a {
     text-align: center;
     border-radius: 10px;
     opacity: 0;
-    transform: translate(-100%);
+    transform: translate(-5%);
     transition: all 500ms ease;
     transition-delay: 200ms;
 }
