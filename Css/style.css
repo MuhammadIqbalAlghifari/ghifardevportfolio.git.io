@@ -42,12 +42,13 @@
 /* Backround Color */
 
 :root {
-    --backround-header: #1C1C1C;
-    --backround-about-upper: #f6f6f6;
-    --backround-about-lower: #2f2f2f;
-    --backround-service: #f0f0f0;
-    --backround-project: #3b3b3b;
-    --backround-contact: #f0f0f0;
+    --backround-header: #000000;
+    --backround-hero: #000000;
+    --backround-about-upper: #1C1C1C;
+    --backround-about-lower: #1C1C1C;
+    --backround-service: #1C1C1C;
+    --backround-project: #1C1C1C;
+    --backround-contact: #1C1C1C;
     --backround-footer: #000000;
     --backround-button: #0EA6BA;
 }
@@ -151,7 +152,7 @@ header a {
 /* Hero Section Start */
 
 .backround-hero {
-    background: var(--backround-header);
+    background: var(--backround-hero);
     width: 100%;
     min-height: 631px;
 }
@@ -240,6 +241,10 @@ header a {
 
 
 /* About Section Upper Start */
+
+section.about {
+    color: white;
+}
 
 .about .backround-about-upper {
     background: var(--backround-about-upper);
@@ -415,6 +420,10 @@ header a {
 
 /* Service Start */
 
+section.service {
+    color: white;
+}
+
 .service .backround-service {
     background: var(--backround-service);
     width: 100%;
@@ -544,6 +553,10 @@ section.project {
 }
 
 /* My jobs End */
+
+section.contact {
+    color: white;
+}
 
 .contact{
     font-family: 'Futura Hv';
