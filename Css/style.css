@@ -42,6 +42,7 @@
 /* Backround Color */
 
 :root {
+    --backround-header: #000000;
     --backround-hero: #000000;
     --backround-about-upper: #1C1C1C;
     --backround-about-lower: #1C1C1C;
