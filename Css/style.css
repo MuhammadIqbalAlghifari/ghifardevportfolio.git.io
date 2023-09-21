@@ -42,15 +42,15 @@
 /* Backround Color */
 
 :root {
-    --backround-header: #000000;
-    --backround-hero: #000000;
+    --backround-hero: #141414;
     --backround-about-upper: #1C1C1C;
     --backround-about-lower: #1C1C1C;
     --backround-service: #1C1C1C;
     --backround-project: #1C1C1C;
-    --backround-contact: #1C1C1C;
+    --backround-contact: #141414;
     --backround-footer: #000000;
-    --backround-button: #0EA6BA;
+    --backround-button: #00da8e;
+    --backround-footer: #141414;
 }
 
 /* ------------------------------------------------------------------- */
@@ -95,7 +95,8 @@ nav.mobile-nav,
 
 
 header .backround-nav {
-    background: var(--backround-header);
+    background: transparent;
+    backdrop-filter: blur(10px);
     width: 100%;
     height: 74px;
     position: fixed;
@@ -113,7 +114,8 @@ header .navbar {
     align-items: center;
     position: fixed;
     width: 1243px;
-    top: 10px;
+    padding-top: 10px;
+    top: 0;
     z-index: 1000;
 }
 
@@ -201,13 +203,13 @@ header a {
 }
 
 .hero p.upper a {
-    color: #5CD2C6;
+    color: var(--backround-button);
     text-decoration: none;
     pointer-events: none;
 }
 
 .hero h1 {
-    color: #5CD2C6;
+    color: var(--backround-button);
     font-size: clamp(1rem, 8vw , 3.5rem);
     margin-top: 0px;
     margin-bottom: 15px;
@@ -316,7 +318,7 @@ section.about {
 /* About Lower Section start */
 
 .about .backround-about-lower {
-    background-color: var(--backround-header);
+    background-color: var(--backround-hero);
     width: 100%;
     min-height: 550px;
 }
@@ -345,7 +347,7 @@ section.about {
 }
 
 .about .about-left-lower p a {
-    color: #5CD2C6;
+    color: var(--backround-button);
     text-decoration: none;
     pointer-events: none;
 }
@@ -388,7 +390,7 @@ section.about {
     margin-top: 40px;
     margin-bottom: 0px;
     font-size: clamp(1rem, 8vw , 1.9rem);
-    color: #5CD2C6;
+    color: var(--backround-button);
 }
 
 .about .about-right-lower h2 a{
@@ -409,7 +411,7 @@ section.about {
 
 .about .about-right-lower-right h2{
     font-size: clamp(1rem, 8vw , 1.9rem);
-    color: #5CD2C6;
+    color: var(--backround-button);
 }
 
 .about .about-right-lower-right h2 a{
@@ -681,7 +683,7 @@ footer {
 }
 
 footer .backround-footer {
-    background: var(--backround-header);
+    background: var(--backround-service);
     display: flex;
 }
 
