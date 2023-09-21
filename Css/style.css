@@ -136,6 +136,10 @@ header .logo {
     font-size: clamp(1rem, 8vw , 2rem);
 }
 
+header .logo a {
+    color: var(--backround-button);
+}
+
 header li{
     display: inline-block;
     margin-left: 80px;
