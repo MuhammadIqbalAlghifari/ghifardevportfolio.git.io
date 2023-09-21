@@ -114,8 +114,7 @@ header .navbar {
     align-items: center;
     position: fixed;
     width: 1243px;
-    padding-top: 10px;
-    top: 0;
+    top: 10px;
     z-index: 1000;
 }
 
